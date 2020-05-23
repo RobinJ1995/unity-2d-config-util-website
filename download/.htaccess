@@ -1,0 +1,3 @@
+<FilesMatch "\.(?i:deb)$">
+  Header set Content-Disposition attachment
+</FilesMatch>
