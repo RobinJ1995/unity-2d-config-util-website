@@ -11,7 +11,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name: robinj1995/unity-2d-config-util-website/unity-2d-config-util-website
-          registry: docker.pkg.github.com
+          registry: ghcr.io
           username: RobinJ1995
           password: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           snapshot: true
